@@ -1,6 +1,6 @@
 :root {
     --bgc-main: #FFFFFF;
-    --hero-text: #FFFFFF;
+    --text-accent: #FFFFFF;
     --primary-brand: #4D5AE5;
     --dark: #2E2F42;
     --success: #31D0AA;
@@ -13,7 +13,7 @@
     --font-weight-medium: 500;
     --font-size-main: 16px;
     --font-size-medium: 20px;
-    --font-size-title: 36px;
+    --font-size-large: 36px;
     --line-height-main: 1.5;
     --line-height-title: 1.11;
     --line-height-medium: 1.2;
@@ -97,7 +97,7 @@ body {
     line-height: 1.07;
     text-align: center;
 
-    color: var(--hero-text);
+    color: var(--text-accent);
 }
 
 .hero-button {
@@ -108,7 +108,7 @@ body {
     letter-spacing: 0.04em;
 
     background-color: var(--primary-brand);
-    color: var(--hero-text);
+    color: var(--text-accent);
 }
 
 .hero-button:hover,
@@ -121,7 +121,7 @@ body {
 }
 
 .studio-section > .title {
-    font-size: var(--font-size-title);
+    font-size: var(--font-size-large);
     line-height: var(--line-height-title);
     text-align: center;
     text-transform: capitalize;
@@ -141,7 +141,7 @@ body {
 }
 
 .portfolio-section > .title {
-    font-size: var(--font-size-title);
+    font-size: var(--font-size-large);
     line-height: var(--line-height-title);
     text-align: center;
     text-transform: capitalize;
@@ -162,7 +162,7 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--primary-brand);
-    color: var(--hero-text);
+    color: var(--text-accent);
 }
 
 .portfolio-link .title {
