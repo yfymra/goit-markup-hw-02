@@ -10,7 +10,7 @@
     --light: #F4F4FD;
     --font-family-main: 'Roboto', sans-serif;
     --font-weight-main: 400;
-    --font-weight-accent: 500;
+    --font-weight-medium: 500;
     --font-size-main: 16px;
     --font-size-medium: 20px;
     --font-size-title: 36px;
@@ -43,7 +43,7 @@ body {
 }
 
 .title {
-    font-weight: var(--font-weight-accent);
+    font-weight: var(--font-weight-medium);
     color: var(--dark);
 }
 
@@ -66,7 +66,7 @@ body {
 
 
 .nav-list .link {
-    font-weight: var(--font-weight-accent);
+    font-weight: var(--font-weight-medium);
     color: var(--dark);
 }
 
@@ -103,7 +103,7 @@ body {
 .hero-button {
     font-family: var(--font-family-main);
     font-size: var(--font-size-main);
-    font-weight: var(--font-weight-accent);
+    font-weight: var(--font-weight-medium);
     line-height: 1.19;
     letter-spacing: 0.04em;
 
@@ -146,7 +146,7 @@ body {
 .filter-btn {
     font-family: var(--font-family-main);
     font-size: var(--font-size-main);
-    font-weight: var(--font-weight-accent);
+    font-weight: var(--font-weight-medium);
     line-height: var(--line-height-main);
     text-align: center;
     letter-spacing: 0.04em;
