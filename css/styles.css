@@ -56,12 +56,26 @@ body {
     font-weight: var(--font-weight-accent);
 }
 
-.nav-list-link {
+.nav-list .link {
     color: var(--dark);
 }
 
-.header-list-link {
+.nav-list .link:hover,
+.nav-list .link:focus {
     color: var(--body-text);
+}
+
+.nav-list .link:active {
+    color: var(--primary-brand);
+}
+
+.contact-list .link {
+    color: var(--body-text);
+}
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+    color: var(--primary-brand);
 }
 
 .hero {
@@ -85,15 +99,21 @@ body {
     letter-spacing: 0.04em;
 
     background-color: var(--primary-brand);
-    color: var(--hero-text); 
-}
+    color: var(--hero-text);
 
-.btn {
     cursor: pointer;
 }
 
-.section-title,
-.team-title {
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--primary-brand);
+}
+
+.hero-button:active {
+    background-color: #404BBF;
+}
+
+.section-title {
     font-weight: var(--font-weight-accent);
     font-size: 36px;
     line-height: 1.11;
@@ -103,9 +123,7 @@ body {
     color: var(--dark);
 }
 
-.list-item-title,
-.team-item-title,
-.project-title {
+.item-title {
     font-weight: var(--font-weight-accent);
     font-size: 20px;
     line-height: 1.2;
@@ -113,7 +131,7 @@ body {
     color: var(--dark);
 }
 
-.team {
+.team-section {
     background-color: var(--light);
 }
 
@@ -127,14 +145,27 @@ body {
 
     background-color: var(--light);
     color: var(--primary-brand);
+
+    cursor: pointer;
 }
 
-.project-filter {
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--primary-brand);
+    color: var(--hero-text);
+}
+
+
+.item-text {
     color: var(--body-text);
 }
 
-.project-descr {
+.item-descr {
     color: var(--light);
+}
+
+.item-descr:hover {
+    background-color: var(--primary-brand);
 }
 
 .footer {
