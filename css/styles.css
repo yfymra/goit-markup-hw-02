@@ -10,10 +10,13 @@
     --light: #F4F4FD;
     --font-family-main: 'Roboto', sans-serif;
     --font-weight-main: 400;
-    --font-weight-accent: 600;
+    --font-weight-accent: 500;
     --font-size-main: 16px;
+    --font-size-medium: 20px;
+    --font-size-title: 36px;
     --line-height-main: 1.5;
-    --letter-spacing: 0.02em;
+    --line-height-title: 1.11;
+    --line-height-medium: 1.2;
 }
 
 body {
@@ -21,7 +24,7 @@ body {
     font-weight: var(--font-weight-main);
     font-size: var(--font-size-main);
     line-height: var(--line-height-main);
-    letter-spacing: var(--letter-spacing);
+    letter-spacing: 0.02em;
 
     background-color: var(--bgc-main);
     color: var(--body-text);
@@ -33,6 +36,15 @@ body {
 
 .list {
     list-style: none;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.title {
+    font-weight: var(--font-weight-accent);
+    color: var(--dark);
 }
 
 .logo {
@@ -52,11 +64,9 @@ body {
     color: var(--primary-brand);
 }
 
-.nav-list {
-    font-weight: var(--font-weight-accent);
-}
 
 .nav-list .link {
+    font-weight: var(--font-weight-accent);
     color: var(--dark);
 }
 
@@ -83,7 +93,6 @@ body {
 }
 
 .hero-title {
-    font-weight: var(--font-weight-accent);
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -100,8 +109,6 @@ body {
 
     background-color: var(--primary-brand);
     color: var(--hero-text);
-
-    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -113,26 +120,27 @@ body {
     background-color: #404BBF;
 }
 
-.section-title {
-    font-weight: var(--font-weight-accent);
-    font-size: 36px;
-    line-height: 1.11;
+.studio-sections > .title {
+    font-size: var(--font-size-title);
+    line-height: var(--line-height-title);
     text-align: center;
     text-transform: capitalize;
-
-    color: var(--dark);
 }
 
-.item-title {
-    font-weight: var(--font-weight-accent);
-    font-size: 20px;
-    line-height: 1.2;
-
-    color: var(--dark);
+.studio-list .title {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
 }
 
 .team-section {
     background-color: var(--light);
+}
+
+.portfolio-section > .title {
+    font-size: var(--font-size-title);
+    line-height: var(--line-height-title);
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .filter-btn {
@@ -145,8 +153,6 @@ body {
 
     background-color: var(--light);
     color: var(--primary-brand);
-
-    cursor: pointer;
 }
 
 .filter-btn:hover,
@@ -155,16 +161,20 @@ body {
     color: var(--hero-text);
 }
 
+.portfolio-link .title {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+}
 
-.item-text {
+.portfolio-link .text {
     color: var(--body-text);
 }
 
-.item-descr {
+.portfolio-link .descr {
     color: var(--light);
 }
 
-.item-descr:hover {
+.portfolio-link .descr:hover {
     background-color: var(--primary-brand);
 }
 
