@@ -120,7 +120,7 @@ body {
     background-color: #404BBF;
 }
 
-.studio-sections > .title {
+.studio-section > .title {
     font-size: var(--font-size-title);
     line-height: var(--line-height-title);
     text-align: center;
