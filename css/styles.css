@@ -9,7 +9,6 @@
     --accent: #E7E9FC;
     --light: #F4F4FD;
     --font-family-main: 'Roboto', sans-serif;
-    --font-weight-main: 400;
     --font-weight-medium: 500;
     --font-size-main: 16px;
     --font-size-medium: 20px;
@@ -21,7 +20,6 @@
 
 body {
     font-family: var(--font-family-main);
-    font-weight: var(--font-weight-main);
     font-size: var(--font-size-main);
     line-height: var(--line-height-main);
     letter-spacing: 0.02em;
@@ -174,9 +172,9 @@ body {
     color: var(--body-text);
 }
 
-.portfolio-link .descr {
+/*.portfolio-link .descr {
     color: var(--light);
-}
+}*/
 
 .portfolio-link .descr:hover {
     background-color: var(--primary-brand);
