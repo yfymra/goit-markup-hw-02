@@ -1,6 +1,5 @@
 :root {
-    --bgc-main: #FFFFFF;
-    --text-accent: #FFFFFF;
+    --color-accent: #FFFFFF;
     --primary-brand: #4D5AE5;
     --dark: #2E2F42;
     --success: #31D0AA;
@@ -24,7 +23,7 @@ body {
     line-height: var(--line-height-main);
     letter-spacing: 0.02em;
 
-    background-color: var(--bgc-main);
+    background-color: var(--color-accent);
     color: var(--body-text);
 }
 
@@ -95,7 +94,7 @@ body {
     line-height: 1.07;
     text-align: center;
 
-    color: var(--text-accent);
+    color: var(--color-accent);
 }
 
 .hero-button {
@@ -106,7 +105,7 @@ body {
     letter-spacing: 0.04em;
 
     background-color: var(--primary-brand);
-    color: var(--text-accent);
+    color: var(--color-accent);
 }
 
 .hero-button:hover,
@@ -167,7 +166,7 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--primary-brand);
-    color: var(--text-accent);
+    color: var(--color-accent);
 }
 
 .portfolio-link .title {
